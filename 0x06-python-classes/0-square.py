@@ -1,3 +1,11 @@
 #!/usr/bin/python3
+
+# 0-square.py by Amanuel Fenta
+
+"""Defines a square """
+
 class Square:
-    print("")
+
+    """Does nothing"""
+
+    pass
