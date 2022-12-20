@@ -1,18 +1,7 @@
 #!/usr/bin/node
 
 class Rectangle {
-    h;
-    w;
-    
-    constructor(h, w){
-        this.width = w;
-        this.height = h;
-
-    }
-    if (w === 0 || w <= 0 || h === 0 || h <= 0){
-        empty_obj = Rectangle();
-
-    }
-        
-
+  constructor (h, w) {
+    if (w > 0 && h > 0) { [this.width, this.height] = [w, h]; }
+  }
 }
