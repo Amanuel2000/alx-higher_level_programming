@@ -3,13 +3,9 @@
  * Represents a rectangle class with width and height attributes
  */
 class Rectangle {
-    h;
-    w;
-    
-    constructor(h, w){
-        this.width = w;
-        this.height = h;
-
-    }
+  constructor (h, w) {
+    this.width = w;
+    this.height = h;
+  }
 }
 module.exports = Rectangle;
