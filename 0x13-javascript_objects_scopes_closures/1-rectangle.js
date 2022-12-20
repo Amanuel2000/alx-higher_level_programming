@@ -1,9 +1,7 @@
 #!/usr/bin/node
-
 /**
  * Represents a rectangle class with width and height attributes
  */
-
 class Rectangle {
     h;
     w;
@@ -13,6 +11,5 @@ class Rectangle {
         this.height = h;
 
     }
-
 }
 module.exports = Rectangle;
