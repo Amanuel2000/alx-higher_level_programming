@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Sends a request to a given URL and displays the response body.
+"""It will send a request to a given URL and displays the response body.
 Usage: ./7-error_code.py <URL>
   - Handles HTTP errors.
 """
@@ -12,6 +12,6 @@ if __name__ == "__main__":
 
     res = requests.get(url)
     if res.status_code >= 400:
-        print("Error code: {}".format(r.status_code))
+        print("Error code: {}".format(res.status_code))
     else:
         print(res.text)
